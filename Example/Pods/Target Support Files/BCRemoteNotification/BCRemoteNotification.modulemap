@@ -1,0 +1,6 @@
+framework module BCRemoteNotification {
+  umbrella header "BCRemoteNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

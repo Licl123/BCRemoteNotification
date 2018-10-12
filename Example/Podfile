@@ -6,6 +6,6 @@ target 'BCRemoteNotification_Example' do
   target 'BCRemoteNotification_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end

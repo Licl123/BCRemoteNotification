@@ -1,0 +1,6 @@
+framework module Pods_BCRemoteNotification_Tests {
+  umbrella header "Pods-BCRemoteNotification_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
