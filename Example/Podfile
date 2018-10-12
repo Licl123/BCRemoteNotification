@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BCRemoteNotification_Example' do
+  pod 'BCRemoteNotification', :path => '../'
+
+  target 'BCRemoteNotification_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
